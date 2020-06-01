@@ -1,0 +1,32 @@
+{
+  "name": "typescript-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-ts": "tsc",
+    "babel-test": "babel ./public/dist/lib/axios-config.js --out-file ./public/babel/axios-config.js",
+    "babel-all": "babel ./public/dist --out-dir ./public/babel --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pawar-shubhangi/typescript-tutorial.git"
+  },
+  "keywords": [],
+  "author": "Shubhangi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pawar-shubhangi/typescript-tutorial/issues"
+  },
+  "homepage": "https://github.com/pawar-shubhangi/typescript-tutorial#readme",
+  "dependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "typescript": "^3.9.3"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jquery": "^3.3.38"
+  }
+}
