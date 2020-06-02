@@ -4,7 +4,7 @@ class AxiosConfig extends Axios {
     constructor() {
         super();
     }
-    getName = function (name: string): string {
+    getName(name: string): string {
         return `Hello, ${name}`;
     }
 }
